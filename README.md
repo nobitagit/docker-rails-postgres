@@ -15,3 +15,11 @@ To run rails commands:
 ```sh
 docker-compose run web rails generate controller home index
 ```
+
+To create the DB (if needed):
+
+```sh
+docker-compose run web rake db:create
+```
+
+See [here](https://stackoverflow.com/a/31542717/1446845)
